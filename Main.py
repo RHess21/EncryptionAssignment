@@ -31,9 +31,3 @@ else:
     
     unencryptedData = decryptor.update(readData) + decryptor.finalize()
     print(f'Here is the unencrypted data: ', unencryptedData.decode('utf-8'))
-    
-    
-    
-    
-    
-    
